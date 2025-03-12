@@ -1,9 +1,10 @@
 .{
-    .name = "microzig",
+    .name = .microzig,
     .version = "0.13.2",
     .minimum_zig_version = "0.13.0",
+    .fingerprint = 0x605a83a807cc66cc,
     .dependencies = .{
-        .@"build-internals" = .{ .path = "build-internals" },
+        .@"build-internals" = .{ .path = ".build-internals" },
         .core = .{ .path = "core" },
         .drivers = .{ .path = "drivers" },
 

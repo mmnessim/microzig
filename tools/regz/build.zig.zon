@@ -1,5 +1,5 @@
 .{
-    .name = "tools/regz",
+    .name = .toolsRegz,
     .version = "0.0.0",
     .paths = .{
         "LICENSE",
